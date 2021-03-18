@@ -1,0 +1,50 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  padding: 64px 16px 88px;
+  // margin: 0 16px;
+  &__h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    //  margin-bottom: 64px;
+  }
+  &-list {
+    color: #dbeaf7;
+    background: no-repeat left top;
+    padding-left: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    // list-style-position:
+    
+
+    &--green {
+      list-style-image: url(../assets/img/small-tickGreen.png);
+    }
+    &--blue {
+      list-style-image: url(../assets/img/small-tickBlue.png);
+    }
+    &--dot {
+      list-style-image: url(../assets/img/dot.png);
+    }
+    &__item {
+    }
+  }
+  &-section {
+    text-align: center;
+    margin-top: 64px;
+    width: 288px;
+    &__emoji {
+      font-size: 58px;
+      line-height: 66px;
+    }
+    &__h3 {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 44px;
+    }
+  }
+}
