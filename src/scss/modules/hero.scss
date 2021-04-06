@@ -1,7 +1,7 @@
 .hero {
   text-align: center;
   &__contact {
-    background: $lightblue;
+    background: $lightBlue;
     color: #ffffff;
     width: 278px;
     height: 48px;
@@ -32,7 +32,7 @@
     color: $dark;
   }
   &__link {
-    color: $lightblue;
+    color: $lightBlue;
     text-decoration: none;
     font-weight: bold;
   }
