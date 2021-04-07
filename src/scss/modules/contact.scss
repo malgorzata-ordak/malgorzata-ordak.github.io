@@ -1,0 +1,44 @@
+.contact {
+  text-align: center;
+  background: $veryLightBlue;
+  padding: 64px 16px 88px;
+  &__h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: $dark;
+    padding-bottom: 32px;
+    margin: 0;
+    text-align: center;
+  }
+  &__paragraph {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 0 16px;
+    text-align: center;
+    margin: 0;
+  }
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 56px 43px 66px;
+  margin: 0;
+}
+.contact__mail {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 48px;
+  width: 278px;
+  height: 48px;
+  align-items: center;
+  background: $lightBlue;
+  color: #fff;
+  padding: 9px 24px;
+  border-radius: 64px;
+  text-decoration: none;
+}
