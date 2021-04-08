@@ -12,6 +12,19 @@
     margin: 0;
     text-align: center;
   }
+  &__mail {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 48px;
+    width: 278px;
+    height: 48px;
+    align-items: center;
+    background: $lightBlue;
+    color: #fff;
+    padding: 9px 24px;
+    border-radius: 64px;
+    text-decoration: none;
+  }
   &__paragraph {
     font-weight: 300;
     font-size: 16px;
@@ -24,21 +37,11 @@
 .social-media {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   list-style-type: none;
-  padding: 56px 43px 66px;
+  padding: 56px 0 66px;
   margin: 0;
-}
-.contact__mail {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 48px;
-  width: 278px;
-  height: 48px;
-  align-items: center;
-  background: $lightBlue;
-  color: #fff;
-  padding: 9px 24px;
-  border-radius: 64px;
-  text-decoration: none;
+  &__item {
+    padding: 0 5px;
+  }
 }
