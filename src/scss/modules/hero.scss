@@ -4,6 +4,19 @@
     max-width: 768px;
     margin: 0 auto;
   }
+  // &__bracket-one {
+  //   @media (min-width: 960px) {
+  //     &::before {
+  //       position: absolute;
+  //       display: block;
+  //       content: "";
+  //       width: 83.23px;
+  //       // height: 254.88px;
+        
+  //       background: url(../assets/img/bracket-one.svg);
+  //     }
+  //   }
+  // }
   &__bubble {
     position: absolute;
     left: calc(50% + 90px);
@@ -89,7 +102,7 @@
       width: 178px;
       height: 178px;
       display: block;
-      border: 24px solid #f6f9fd; 
+      border: 24px solid #f6f9fd;
     }
   }
   &__special {
@@ -106,5 +119,3 @@
     }
   }
 }
-
-
