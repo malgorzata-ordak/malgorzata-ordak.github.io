@@ -9,6 +9,7 @@
     position: absolute;
     left: calc(50% + 90px);
     top: -26px;
+    width: 225px;
   }
   &__contact {
     background: $lightBlue;
@@ -22,6 +23,10 @@
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
+    @media( min-width: 960px) {
+      margin: 68px 0 88px 0;
+
+    }
   }
   &__description {
     display: flex;
@@ -41,7 +46,7 @@
            content: "";
            width: 83.23px;
           height: 254.88px;
-          margin-top: 80px;
+          margin-top: 180px;
          }
          &::before {       
           background: url(../assets/img/bracket-left.svg);
@@ -61,20 +66,21 @@
     display: none;
     @media (min-width: 960px) {
       display: block;
-      padding: 16px 19px;
+      // padding: 16px 19px;
+      padding:16px 0px 16px 13px;
       background: $blue1;
       border-radius: 16px;
       font-weight: bold;
       font-size: 32px;
-      line-height: 40px;
       color: #ffffff;
       position: relative;
-      font-size: 20px;
+      // font-size: 20px;
 line-height: 40px;
-      &::after {
+      &:after {
+      content: "";
         position: absolute;
         display: block;
-        content: "";
+        
         width: 17.42px;
         height: 22.66px;
         left: 32px;
@@ -88,9 +94,11 @@ line-height: 40px;
     font-size: 26px;
     line-height: 32px;
     color: $dark;
+    margin-top: 24px;
     @media (min-width: 960px) {
       font-size: 32px;
       line-height: 40px;
+      margin: 0;
     }
   }
   &__link {
@@ -102,9 +110,11 @@ line-height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 64px;
-    @media (min-width: 960px) {
+    margin-top: 82px;
       position: relative;
+      @media (min-width: 960px) {
+        margin-top: 106px;
+      
     }
   }
   &__photo {
@@ -128,9 +138,13 @@ line-height: 40px;
     font-weight: 300;
     font-size: 16px;
     line-height: 32px;
+    margin-top: 0;
     @media (min-width: 960px) {
       font-size: 20px;
       line-height: 40px;
+    }
+    @media (min-width: 1000px) {
+      margin-top: 50px;
     }
   }
 }

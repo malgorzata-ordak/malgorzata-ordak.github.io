@@ -35,7 +35,7 @@ padding-bottom: 40px;
     align-items: center;
     background: $lightBlue;
     color: #fff;
-    padding: 4px 24px;
+    padding: 8px 24px;
     border-radius: 64px;
     text-decoration: none;
     @media (min-width: 960px) {
@@ -63,7 +63,7 @@ line-height: 40px;
   align-items: center;
   justify-content: center;
   list-style-type: none;
-  padding: 56px 0 66px;
+  padding: 56px 0 56px;
   margin: 0;
   &__item {
     padding: 0 5px;

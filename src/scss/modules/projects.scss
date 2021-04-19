@@ -1,5 +1,9 @@
 .projects {
-  padding: 64px 16px 88px;
+  padding: 55px 16px 88px 16px;
+  @media (min-width: 768px) {
+    padding: 64px 16px 88px 30px;
+
+  }
   @media (min-width: 960px) {
     padding: 80px 128px 176px 128px;
   }
@@ -8,29 +12,33 @@
     line-height: 48px;
     color: $dark;
     text-align: center;
+    margin: 0 0 32px 0;
     @media (min-width: 960px) {
       font-size: 48px;
       line-height: 56px;
+      margin-top: 0;
     }
   }
   &-grid {
     display: grid;
     column-gap: 24px;
     row-gap: 24px;
-    // max-width: 1184px;
-    // margin: 0 auto;
     @media (min-width: 768px) {
       grid-template-columns: 1fr 1fr;
+    }
+    @media (min-width: 960px) {
+      max-width: 1184px;
     }
   }
   &__paragraph {
     font-weight: 300;
     font-size: 16px;
     line-height: 32px;
-    margin-bottom: 46px;
+    // margin-bottom: 46px;
     text-align: center;
     max-width: 786px;
-    margin: 0 auto 128px;
+    // margin: 0 auto 128px;
+    margin:0 auto 46px;
     @media (min-width: 960px) {
       font-size: 20px;
       line-height: 40px;
@@ -55,18 +63,26 @@
   }
   &__box {
     padding: 24px 16px;
-    margin-bottom: 24px;
+    // margin-bottom: 24px;
+    &-icon {
+      margin-bottom: 24px;
+      // margin-left: 32px;
+      // padding-left: 24px 16px;
+      @media (min-width: 960px) {
+        margin-left: 48px;
+      }
+    }
     @media (min-width: 960px) {
-      margin-left: 48px;
-      padding: 24px 0px;
+      padding: 24px 32px 0 46px;
+      margin-bottom: 58px;
     }
   }
-  &-icon {
-    margin-bottom: 24px;
-    @media (min-width: 960px) {
-      margin-left: 48px;
+  &__h3 {
+    @media( min-width: 960px) {
+      padding-top: 24px;
     }
   }
+  
   &__grid {
     display: grid;
     grid-template-columns: 102px 1fr;
@@ -93,7 +109,7 @@
     font-size: 13px;
     line-height: 24px;
     &--special {
-      margin-bottom: 16px;
+      margin-bottom: 24px;
     }
     @media (min-width: 960px) {
       font-size: 16px;
@@ -113,6 +129,7 @@
     font-size: 13px;
     line-height: 24px;
     &--special {
+      margin-bottom: 24px;
       @media (min-width: 960px) {
         margin-bottom: 16px;
       }
