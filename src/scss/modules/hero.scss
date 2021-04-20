@@ -2,8 +2,8 @@
   text-align: center;
   @media (min-width: 768px) {
     max-width: 768px;
-  
-    margin: 80px 229px 88px 229px;
+  margin: 26px auto 0;
+    padding: 80px 0px 88px 0px;
   }
   &__bubble {
     position: absolute;
@@ -46,7 +46,7 @@
            content: "";
            width: 83.23px;
           height: 254.88px;
-          margin-top: 180px;
+          margin-top: 135px;
          }
          &::before {       
           background: url(../assets/img/bracket-left.svg);
@@ -98,7 +98,7 @@ line-height: 40px;
     @media (min-width: 960px) {
       font-size: 32px;
       line-height: 40px;
-      margin: 0;
+      margin: 0px;
     }
   }
   &__link {
@@ -113,7 +113,8 @@ line-height: 40px;
     margin-top: 82px;
       position: relative;
       @media (min-width: 960px) {
-        margin-top: 106px;
+        // margin-top: 106px;
+        margin-top: 0;
       
     }
   }
@@ -139,12 +140,15 @@ line-height: 40px;
     font-size: 16px;
     line-height: 32px;
     margin-top: 0;
+    margin-bottom: 0;
     @media (min-width: 960px) {
       font-size: 20px;
       line-height: 40px;
+      margin-top: 24px;
+      margin-bottom: 0;
     }
-    @media (min-width: 1000px) {
-      margin-top: 50px;
-    }
+    // @media (min-width: 1000px) {
+    //   margin-top: 50px;
+    // }
   }
 }
