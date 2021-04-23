@@ -2,7 +2,6 @@
   padding: 55px 16px 88px 16px;
   @media (min-width: 768px) {
     padding: 64px 16px 88px 30px;
-
   }
   @media (min-width: 960px) {
     padding: 80px 128px 176px 128px;
@@ -63,11 +62,8 @@
   }
   &__box {
     padding: 24px 16px;
-    // margin-bottom: 24px;
     &-icon {
       margin-bottom: 24px;
-      // margin-left: 32px;
-      // padding-left: 24px 16px;
       @media (min-width: 960px) {
         margin-left: 48px;
       }
@@ -82,7 +78,6 @@
       padding-top: 24px;
     }
   }
-  
   &__grid {
     display: grid;
     grid-template-columns: 102px 1fr;

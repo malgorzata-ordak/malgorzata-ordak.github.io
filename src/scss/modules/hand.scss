@@ -1,0 +1,15 @@
+@keyframes hand {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+.hand {
+  display: inline-block;
+  animation: hand 1.3s ease-in-out infinite alternate;
+}

@@ -2,7 +2,7 @@
   text-align: center;
   @media (min-width: 768px) {
     max-width: 768px;
-  margin: 26px auto 0;
+    margin: 26px auto 0;
     padding: 80px 0px 88px 0px;
   }
   &__bubble {
@@ -23,9 +23,8 @@
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
-    @media( min-width: 960px) {
+    @media (min-width: 960px) {
       margin: 68px 0 88px 0;
-
     }
   }
   &__description {
@@ -40,47 +39,42 @@
       max-width: 786px;
       margin-top: 48px;
       position: relative;
-         &::before, &::after {
-          position: absolute;
-           display: block;
-           content: "";
-           width: 83.23px;
-          height: 254.88px;
-          margin-top: 135px;
-         }
-         &::before {       
-          background: url(../assets/img/bracket-left.svg);
-          right: 100%;
-         }
-         &::after {
-          background: url(../assets/img/bracket-right.svg);
-          left: 100%;
-
-         }
-
-               
-    
+      &::before,
+      &::after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 83.23px;
+        height: 254.88px;
+        margin-top: 135px;
+      }
+      &::before {
+        background: url(../assets/img/bracket-left.svg);
+        right: 100%;
+      }
+      &::after {
+        background: url(../assets/img/bracket-right.svg);
+        left: 100%;
+      }
+    }
   }
-}
   &__hello {
     display: none;
     @media (min-width: 960px) {
       display: block;
-      // padding: 16px 19px;
-      padding:16px 0px 16px 13px;
+      // display: inline-block;
+      padding: 16px 0px 16px 13px;
       background: $blue1;
       border-radius: 16px;
       font-weight: bold;
       font-size: 32px;
       color: #ffffff;
       position: relative;
-      // font-size: 20px;
-line-height: 40px;
+      line-height: 40px;
       &:after {
-      content: "";
+        content: "";
         position: absolute;
         display: block;
-        
         width: 17.42px;
         height: 22.66px;
         left: 32px;
@@ -88,7 +82,9 @@ line-height: 40px;
         background: url(../assets/img/Speech_cloud.svg);
       }
     }
-  }
+   
+    }
+  
   &__h1 {
     font-weight: bold;
     font-size: 26px;
@@ -111,11 +107,9 @@ line-height: 40px;
     align-items: center;
     justify-content: center;
     margin-top: 82px;
-      position: relative;
-      @media (min-width: 960px) {
-        // margin-top: 106px;
-        margin-top: 0;
-      
+    position: relative;
+    @media (min-width: 768px) {
+      margin-top: 0;
     }
   }
   &__photo {
@@ -147,8 +141,6 @@ line-height: 40px;
       margin-top: 24px;
       margin-bottom: 0;
     }
-    // @media (min-width: 1000px) {
-    //   margin-top: 50px;
-    // }
   }
 }
+

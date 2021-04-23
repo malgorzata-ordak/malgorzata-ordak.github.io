@@ -3,7 +3,7 @@
   background: $veryLightBlue;
   padding: 64px 16px 88px;
   @media (min-width: 960px) {
-    padding:64px 16px 110px 16px;
+    padding: 64px 16px 110px 16px;
   }
   &__h2 {
     font-style: normal;
@@ -14,21 +14,18 @@
     padding-bottom: 32px;
     margin: 0;
     text-align: center;
-    @media (min-width:960px) {
+    @media (min-width: 960px) {
       font-size: 48px;
-line-height: 56px;
-padding-bottom: 40px;
-
+      line-height: 56px;
+      padding-bottom: 40px;
     }
   }
   &__links {
-    @media (min-width:960px) {
+    @media (min-width: 960px) {
       display: flex;
       justify-content: center;
-      margin-top:72px;
-     
-     
-}
+      margin-top: 72px;
+    }
   }
   &__mail {
     font-weight: bold;
@@ -46,7 +43,6 @@ padding-bottom: 40px;
       margin: 56px 0 66px 110px;
       padding: 0;
     }
-
   }
   &__paragraph {
     font-weight: 300;
@@ -56,13 +52,11 @@ padding-bottom: 40px;
     text-align: center;
     margin: 0;
     @media (min-width: 960px) {
-    font-size: 20px;
-line-height: 40px;
+      font-size: 20px;
+      line-height: 40px;
+    }
   }
 }
-}
-  
-
 .social-media {
   display: flex;
   align-items: center;
