@@ -1,5 +1,6 @@
 .projects {
   padding: 55px 16px 88px 16px;
+  // margin-left: 8px;
   @media (min-width: 768px) {
     padding: 64px 16px 88px 30px;
   }
@@ -61,7 +62,7 @@
     align-items: center;
   }
   &__box {
-    padding: 24px 16px;
+    padding: 24px 16px 44px;
     &-icon {
       margin-bottom: 24px;
       @media (min-width: 960px) {
